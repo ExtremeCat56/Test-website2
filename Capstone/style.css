@@ -1,0 +1,181 @@
+
+
+#headerpic{
+    background-color:#C6E9EF;
+    height: 60vh;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cooldude{
+    margin-left: 10vh;
+    width: 60vh;
+    background-color:#DDECE8 ;
+    border-radius: 20px;
+    padding: 0;
+    height: 500px;
+
+    margin-top: -15vh;
+}
+
+#coolmanpic{
+    height: 500px;
+    padding: 0;
+    border-radius: 20px;
+    float: left;
+    margin-right: 20px;
+
+}
+
+#dudeparagraph{
+    font-size: 30pt;
+    width:700px;
+    font-weight: 500;
+    padding-left: 10px;
+    margin:20px;
+    padding: 30px;
+}
+
+#header{
+    font-size: 40pt;
+    height: 500px;
+    width: 60vh;
+    font-family: "Sacramento", cursive;
+}
+
+#aboutme{
+    font-size: 40pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 700px;
+    margin-bottom: 10vh;
+
+}
+
+#listaboutme{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#unused{
+    display: inline-flex;
+    margin-top: 200px;
+}
+
+.hobby{
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    
+}
+
+#alien{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+
+ul{
+    list-style: none;
+    text-align: left;
+}
+
+li{
+    margin:20px;
+    font-weight: 500;
+}
+
+h1{
+    margin: 0;
+}
+
+body{
+    margin:0;
+    background-color: aliceblue;
+}
+
+#linktoplaces{
+    height: 60vh;
+    background-color:#DDECE8;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkdiv{
+    width: 50vh;
+    height: 30vh;
+    background-color: #C6E9EF;
+    margin: 50px;
+    border-width: 4px;
+    border-color:  black;
+    border-radius: 30px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h3s{
+    font-size: 35pt;
+    font-weight: 1000;
+}
+
+.belowheader{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button{
+    height: 70px;
+    width: 300px;
+    background-color: #66f2a9;
+    border-radius: 10px;
+    border-style: groove;
+    font-size: large;
+}
+
+.linkpar{
+    height: 75px;
+    width: 400px;
+    font-size: 27pt;
+    margin-bottom: 120px;
+    margin-top: 0px;
+}
+
+#footer{
+    height: 9vh;
+    background-color: #65e1f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: navy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footerdiv{
+    margin:5px;
+}
+
+@media (max-width: 1927px){
+    #linktoplaces{
+        flex-direction: column;
+        height: 120vh;
+    }
+
+    #cooldude{
+        margin-left: 7%;
+    }
+
+}
