@@ -179,3 +179,62 @@ body{
     }
 
 }
+
+@media (max-width: 1000px){
+    #header{
+        font-size: 20pt;
+        margin-left: 50px;
+        width: 400px;
+    }
+
+    #cooldude{
+        width: 10vh;
+        height: 20vh;
+        background-color: #65e1f7;
+    }
+
+    #coolmanpic{
+        height: 300px;
+    }
+
+    #dudeparagraph{
+        font-size: 18pt;
+        height: 10vh;
+        width: 30vh;
+    }
+
+    #aboutme{
+        width: 30vh;
+        font-size: 15pt;
+        justify-content: right;
+    }
+
+    .hobby{
+        height: 100px;
+    }
+
+    .linkdiv{
+        height: 20vh;
+        width: 30vh;
+    }
+
+    .h3s{
+        font-size: 15pt;
+    }
+
+    .linkpar{
+        font-size: 15pt;
+        margin: 10px;
+    }
+
+    .button{
+        height: 40px;
+        width: 200px;
+    }
+
+    div.belowheader{
+        height: 50px;
+    }
+}
+    
+
